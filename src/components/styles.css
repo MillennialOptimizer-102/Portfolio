@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+}
+.row{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.col-md-12{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ul{
+    list-style: none;
+}
+li{
+    list-style: '✅';
+}
+/*Navigation bar*/
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #7510F7;
+}
+
+/*Introduction Section*/
+.intro{
+    padding-bottom: 8%;
+}
+.heading{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.extra-bold {
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.normal{
+    text-shadow: 0px;
+}
+.heading{
+    margin: auto;
+    width: 100%;
+}
+.heading h1{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.heading p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.me{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*more intro*/
+.devices{
+    height: 320px;
+    width: 800px;
+}
+.moreIntro{
+    background-color: #7510F7;
+}
+.about{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.about h1{
+    color: white; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.about p{
+    color: white; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.talents{
+} 
+/*cards*/
+.experience{  
+    padding-top: 10%;  
+}
+.stuff{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.experience h1{
+    padding-top: 2%;
+    color: black;
+    padding-bottom: 2%;
+}
+.card{
+    padding: 0px;
+    border: #7510F7 solid black;
+    border-radius: 10px;
+    height: auto;
+    
+}
+.tech{
+    transform: translateY(20%);
+    padding: 0px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 400px;
+    background: white;
+}
+.logoSection{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.titleSection{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.titleSection h1{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.paraSection{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:  #7510F7 solid black;
+}
+
+.contact{
+    transform: translateY(50%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contactCard{
+    background: #141D3B;
+    color: white;
+}
+.contactDetails{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.projectStart{
+    padding-top: 2%;
+}
+.DoBtn{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid #5BE8B8;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+}
+.footer{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: #7510F7;
+}
+.footer p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.moreFooter p{
+    font-size: 1.05rem;
+}
+.mediaBtn{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #7510F7;
+}
+@media screen and (max-width: 1200px) {
+    .tech{
+        height: 450px;
+    }
+    .footer{
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .devices{
+        height: 210px;
+        width: 520px;
+    }
+    .about{
+        padding-top: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .experience{
+        padding-top: 20%;
+    }
+    .footer{
+        padding-top: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer{
+        padding-top: 30%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .devices{
+        height: 120px;
+        width: 300px;
+    }
+    .experience{
+        padding-top: 25%;
+    }
+    .footer{
+        padding-top: 40%;
+    }
+    .about{
+        padding-top: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        text-align: left;
+        margin: auto;
+        width: 100%;
+    }
+}
